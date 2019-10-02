@@ -1,0 +1,41 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h3
+ {
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+}
+
+
+.intro-header {
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/cover-bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cover-message {
+    position: relative;
+    padding-top: 35%;
+    padding-bottom: 35%;
+}
+
+.cover-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 8em;
+}
+
+.cover-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 4em;
+
+}
